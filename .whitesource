@@ -2,10 +2,9 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "enableLicenseViolations": "true",
     "projectToken": "",
-    "enableIaC": "true",
-    "baseBranches": []
+    "baseBranches": [],
+    "enableLicenseViolations": "true"
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
@@ -14,8 +13,8 @@
   "issueSettings": {
     "minSeverityLevel": "LOW"
   },
-      "remediateSettings": {
+    "remediateSettings": {
       "extends": ["github>whitesource/merge-confidence:beta"],
-      "transitiveRemediation": true
+      "transitiveRemediation": "true"
     }
 }
