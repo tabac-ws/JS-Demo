@@ -16,8 +16,7 @@
     "minSeverityLevel": "LOW"
   },
   "remediateSettings": {
-    "enableRenovate": true,
-    "extends": ["config:base", "github>whitesource/merge-confidence:beta"],
+    "extends": ["github>whitesource/merge-confidence:beta"],
     "transitiveRemediation": true
   }
 }
